@@ -31,7 +31,7 @@ class Quote {
    */
   static get toolbox() {
     return {
-      icon: '<svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg"><path d="M13.53 6.185l.027.025a1.109 1.109 0 0 1 0 1.568l-5.644 5.644a1.109 1.109 0 1 1-1.569-1.568l4.838-4.837L6.396 2.23A1.125 1.125 0 1 1 7.986.64l5.52 5.518.025.027zm-5.815 0l.026.025a1.109 1.109 0 0 1 0 1.568l-5.644 5.644a1.109 1.109 0 1 1-1.568-1.568l4.837-4.837L.58 2.23A1.125 1.125 0 0 1 2.171.64L7.69 6.158l.025.027z" /></svg>',
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.62 18H3.38L5.38 14H3V6H11V13.24L8.62 18ZM13.38 18H18.62L21 13.24V6H13V14H15.38L13.38 18ZM17.38 16H16.62L18.62 12H15V8H19V12.76L17.38 16ZM7.38 16H6.62L8.62 12H5V8H9V12.76L7.38 16Z" fill="currentColor"/></svg>',
       title: 'Quote'
     };
   }
