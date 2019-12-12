@@ -7,11 +7,22 @@
 }
 
 .cdx-quote__text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
   min-height: 158px;
   margin-bottom: 10px;
+  border: 0;
+  box-shadow: -2px 0 0 #333333; 
+  border-radius: 0;
+  cursor: text;
+  margin-bottom: 0;
 }
 
-.cdx-quote__caption {}
+
+.cdx-quote__caption {
+  display: none;
+}
 
 .cdx-quote [contentEditable=true][data-placeholder]::before{
   position: absolute;
