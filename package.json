@@ -3,7 +3,7 @@
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/bfrow-tech" 
   },
-  "version": "2.3.2",
+  "version": "2.3.3",
   "keywords": [
     "codex editor",
     "tool",
