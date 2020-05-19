@@ -9,24 +9,27 @@
 .cdx-quote__text {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
-  font-style: italic;
+  color: #fff;
   border: 0;
-  box-shadow: -2px 0 0 #333333; 
   border-radius: 0;
   cursor: text;
   margin-bottom: 0;
-  padding: 5px 20px 20px;
+  padding: 33px 40px;
+  background: #333333;
 }
 
-
 .cdx-quote__caption {
-  display: none;
+  background: #333333;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  padding: 10px 40px;
 }
 
 .cdx-quote [contentEditable=true][data-placeholder]::before{
   position: absolute;
   content: attr(data-placeholder);
-  color: #707684;
+  color: #fff;
   font-weight: normal;
   opacity: 0;
 }
